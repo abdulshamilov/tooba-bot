@@ -1,15 +1,15 @@
+# Tooba Bot
+
+Простой Telegram-бот для проекта **Tooba**, написанный на Python с использованием библиотеки **aiogram**.
+
+---
+
+## 🚀 Локальный запуск
+
+###. Клонировать репозиторий
+```bash
 git clone https://github.com/abdulshamilov/tooba-bot.git
 cd tooba-bot
-python -m venv venv
-source venv/bin/activate  # Для Linux/macOS
-venv\Scripts\activate     # Для Windows
-установить:
-  pip install aiogram
-
-Здесь ваш токен бота
+pip install aiogram
 BOT_TOKEN=1234
-
-Токен можно получить у BotFather
-
 python bot.py
-
